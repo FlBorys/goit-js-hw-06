@@ -5,10 +5,10 @@ const initialValue = document.getElementById("value");
 let counterValue = 0;
 btnClickIncrease.addEventListener("click", function () {
     counterValue += 1;
-    initialValue.textContent = countValue;
+    initialValue.textContent = counterValue;
 });
 
 btnClickDecrease.addEventListener("click", function () {
     counterValue -= 1;
-    initialValue.textContent = countValue;
+    initialValue.textContent = counterValue;
 });
